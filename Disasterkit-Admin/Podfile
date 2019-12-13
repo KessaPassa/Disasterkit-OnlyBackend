@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '11.0'
+
+target 'Disasterkit-Admin’ do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Disasterkit-Admin
+  pod 'PeerKit', '~> 4.0.0'
+  pod 'ReachabilitySwift' , '~> 4.1.0'
+  pod 'SwiftyJSON' , '~> 4.0.0'
+  pod 'Firebase/Core' , '~> 4.0'
+  pod 'Firebase/Database' , '~> 4.1’
+  pod 'ArcGIS-Runtime-SDK-iOS', '~>100.2'
+  pod 'SVProgressHUD', '~> 2.2.2'
+end
